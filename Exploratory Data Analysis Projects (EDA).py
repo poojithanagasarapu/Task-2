@@ -8,6 +8,6 @@ profile = ProfileReport(df, title="Profiling Report")
 
 profile.to_widgets()
 
-profile.to_notebook_iframe(
+profile.to_notebook_iframe()
 
 profile.to_file("report.html")
